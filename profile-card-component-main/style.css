@@ -1,3 +1,69 @@
+@font-face {
+  font-family: Kumbh Sans, sans-serif;
+  src: url("https://fonts.google.com/specimen/Kumbh+Sans");
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 
-
-/*# sourceMappingURL=style.css.map */
+body {
+  font-family: Kumbh Sans, sans-serif;
+  background-color: hsl(185, 75%, 39%);
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+.title {
+  font-weight: 700;
+}
+.subtitle {
+  font-weight: 400;
+}
+.circle-avatar {
+  position: absolute;
+  border-radius: 50%;
+  border-color: white;
+  border-style:solid;
+  border-width: 5px;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.card {
+  background: url("/profile-card-component-main/images/bg-pattern-card.svg");
+  position: absolute;
+  width: 400px;
+  height: 500px;
+  border-radius: 20px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+}
+.card-body {
+  margin-top: 3rem;
+  background-color: white;
+}
+.container {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+}
+.container .item {
+    align-self: stretch;
+}
+.info-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  padding: 1rem;
+}
